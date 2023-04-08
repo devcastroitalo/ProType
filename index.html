@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>ProType</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
+        <link href="static/css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="static/css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+        <header class="header">
+            <h1>ProType</h1>
+        </header> <!-- .header -->
+        
+        <section class="game">
+            <article class="game-info">
+                <span class="current-word"></span> <!-- .current-word -->
+                <span class="timer"></span> <!-- .timer -->
+                
+                <div class="typed-container">
+                    <span class="correct-words">
+                        <span class="correct-words-qtd">0</span> <!-- .correct-words-qtd --> Correct
+                    </span> <!-- .correct-words --> <br/>
+                    <span class="errors-words">
+                        <span class="errors-words-qtd">0</span> <!-- .errors-words-qtd --> Errors
+                    </span> <!-- .erros-words --> <br/><br/>
+                    <span class="total-words">
+                        <span class="total-words-qtd">0</span> <!-- .total-words-qtd --> <br/> Total
+                    </span> <!-- .total-words --> <br/>
+                </div> <!-- .timer -->
+            </article> <!-- .game-info -->
+            
+            <article class="game-input">
+                <input class="word-input" type="text" placeholder="Type here"> <!-- .word-input -->
+                
+                <button class="restart-btn">Restart</button> <!-- .restart-btn -->
+            </article> <!-- .game-input -->
+        </section> <!-- .game -->
+    </body>
+    
+    <script src="static/js/jQuery/jquery3-6.js" type="text/javascript"></script>
+    <script src="static/js/index.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,19 @@
+@import url("header/header.css");
+@import url("game/game.css");
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --brown: #e3c4a8;
+    --blue: #4592af;
+    --darker-blue: #226089;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--brown);
+}

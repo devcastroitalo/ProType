@@ -1,0 +1,32 @@
+.game-input {
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.game-input 
+.word-input, .restart-btn {
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+.game-input .word-input {
+    flex-grow: 1;
+    border: none; 
+    border-radius: 5px;
+}
+
+.game-input .restart-btn {
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 0 .5em;
+}
+
+.game-input .restart-btn:hover {
+    cursor: pointer;
+}

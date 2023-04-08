@@ -1,0 +1,7 @@
+@import url("game-info/game-info.css");
+@import url("game-input/game-input.css");
+
+.game {
+    padding: 1em;
+}
+

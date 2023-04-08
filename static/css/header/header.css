@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    padding: 1em;
+    background-color: var(--black);
+}
+
+.header h1 {
+    font-size: 5em; 
+    color: var(--white);
+    text-align: center;
+    font-weight: bold;
+}
+
